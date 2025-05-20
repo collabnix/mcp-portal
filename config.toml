@@ -1,0 +1,63 @@
+baseURL = "https://mcp.collabnix.com/"
+languageCode = "en-us"
+title = "Model Context Protocol (MCP) Portal"
+theme = "papermod"
+
+# Enable syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+[params]
+  description = "A community portal for Model Context Protocol (MCP) - an open standard for connecting AI assistants to data sources and tools"
+  author = "Collabnix Community"
+  mainSections = ["blog", "docs"]
+  ShowBreadCrumbs = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  
+  [params.homeInfoParams]
+    Title = "Model Context Protocol (MCP)"
+    Content = """
+    **MCP is an open standard for connecting AI assistants to the systems where data lives.**
+    
+    Explore tutorials, guides, and community resources to help you build with MCP.
+    """
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/modelcontextprotocol"
+  
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/collabnix"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+  [[menu.main]]
+    name = "Docs"
+    url = "/docs"
+    weight = 3
+  [[menu.main]]
+    name = "Examples"
+    url = "/examples"
+    weight = 4
+  [[menu.main]]
+    name = "Community"
+    url = "/community"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 6
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
